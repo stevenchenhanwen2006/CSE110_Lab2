@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Plan</title>
+        <link rel="icon" href="clock.jpg">
+        <meta name="description" content="This is the meeting plan" />
+    </head>
+    <body>
+        <header>
+            <h1>Meeting Agenda</h1>
+            <h2>April 8th, 2026</h2>
+        </header>
+        <main>
+            <nav>
+            <h2>Page Navigation</h2>
+            <ul>
+                <li><a href="#introduction">introduction</a></li>
+                <li><a href="#check-in">check-in</a></li>
+                <li><a href="#agenda">agenda</a></li>
+                <li><a href="#things-left">things left</a></li>
+                <li><a href="#new-business">new business</a></li>
+                <li><a href="#attendance">attendance</a></li>
+            </ul>
+            </nav>
+            <section id="introduction">
+                <h2>Introduction</h2>
+                <p><strong>Hello everyone!</strong> Our group name is 
+                <i>Be Bold Be Brave</i>, and my name is <span><b>Hanwen Chen</b>
+                </span>. <br>
+                Now solve a riddle:</p>
+
+                <details>
+                    <summary>What walks on four legs in the morning, two legs
+                        at noon, and three legs in the evening?</summary>
+                    Human
+                </details>
+                <p>This is our team mascot:</p>
+                <img src="light.jpg" alt="mascot">
+                <p>Now listen to this masterpiece:</p>
+                <audio controls src="Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster).mp3"></audio>
+                <p>Now enjoy this scene</p>
+                <video controls src="videoplayback.mp4"></video>
+            </section>
+            <hr>
+            <section id="check-in">
+                <h2>Check-In</h2>
+                <div>
+                    <p>Fill out the form below:</p>
+                    <form>
+                        <label>Name:</label>
+                        <input type="text"><br>
+                        <label>Birthdate:</label>
+                        <input type="date"><br>
+                        <fieldset>
+                            <legend>Choose your favorite language</legend>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Choose times you can arrive</legend>
+                            <input type="checkbox" id="time1" name="time" value="12pm">
+                            <label for="time1">12pm</label><br>
+                            <input type="checkbox" id="time2" name="time" value="3pm">
+                            <label for="time2">3pm</label><br>
+                            <input type="checkbox" id="time3" name="time" value="6pm">
+                            <label for="time3">6pm</label><br><br>
+                        </fieldset>
+                        <fieldset>
+                            <label for="positions">Choose the area you wish to work on:</label>
+                            <input list="position-to-choose" id="positions" name="positions">
+                            <datalist id="position-to-choose">
+                                <option value="web development"></option>
+                                <option value="maintanence"></option>
+                            </datalist>
+                        </fieldset>
+                        <fieldset>
+                            <label for="choose-position">Choose a position</label>
+                            <select name="positions" id="choose-position">
+                                <option value="frontend">frontend</option>
+                                <option value="backend">backend</option>
+                                <option value="fullstack">fullstack</option>
+                            </select>
+                        </fieldset>
+                        <label for="comment">Questions, Comments, or Concerns</label><br>
+                        <textarea id="comment" name="comment" rows="3"></textarea>
+                        <br>
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </section>
+            <hr>
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <h3>List Your Idea Below:</h3>
+                <ol>
+                    <li><strong>Meet up</strong> every <b>Wednesday</b></li>
+                    <li>Clone the repo <em>group_repo</em></li>
+                </ol>
+            </section>
+            <section id="things-left">
+                <h2>Things Left Unfinished Last Time</h2>
+                <ul>
+                    <li>Give me your github username</li>
+                    <li>Finish introduction</li>
+                </ul>
+            </section>
+            <section id="new-business">
+                <h2>New Business</h2>
+                <ul>
+                    <li>brainstorm html structure for the project</li>
+                    <li>meet up this Sunday</li>
+                </ul>
+            </section>
+            <section id="attendance">
+                <h2>Attendance List</h2>
+                <ul>
+                    <li>Abbey</li>
+                    <li>Bob</li>
+                    <li>John</li>
+                    <li>William</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
